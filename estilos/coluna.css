@@ -1,0 +1,32 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#colunas {
+    display: flex;
+}
+
+#direita {
+    background-color: blue;
+    width: 15%;
+    height: 800px;
+}
+
+#conteudo {
+    height: 800px;
+    width: -webkit-fill-available;
+    background-color: black;
+}
+
+.divs {
+    font-family: monospace;
+    color: white;
+
+}
+
+#esquerda {
+    background-color: red;
+    width: 15%;
+    height: 800px;
+}
