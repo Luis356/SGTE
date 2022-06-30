@@ -5,73 +5,65 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estilos/coluna.css">
     <link rel="stylesheet" href="estilos/menu.css">
+    <link rel="stylesheet" href="estilos/form.css">
+    <link rel="shortcut icon" href="imagens/cadastro.png">
     <title>Cadastre-se</title>
 </head>
 
 <body>
 
     <nav id="menu-link">
+
         <ul>
+
             <li>
-
                 <a href="index.html">SGTE</a>
-
             </li>
             <li class="item">
-
                 <a href="sobre.html">SOBRE</a>
-
             </li>
-
-
             <li class="item">
-
                 <a href="contato.html">CONTATO</a>
-
             </li>
-
             <li class="item">
-
                 <a href="form.html">CADASTRE-SE</a>
-
-
-
             </li>
 
         </ul>
+
     </nav>
+
     <div id="colunas" class="divs">
 
         <div id="direita">
-
             <p>
                 Texto direita
             </p>
-
         </div>
 
         <div id="conteudo" class="divs">
 
-            <form action="cadastro.php" method="get">
-                <fieldset>
-                    <legend>Cadastro</legend>
+            <div id="area">
+                <form id="formulario" autocomplete="off">
+                    <fieldset>
+                        <legend>Formulário</legend>
 
-                    <input type="text" name="pnome" id="pnome">
-                    <input type="text" name="snome" id="snome">
-                    <input type="date" name="dnasc" id="dnasc">
-                    <input type="submit" value="Enviar">
-
-                </fieldset>
-            </form>
+                        <label>Nome:</label>
+                        <input class="campo_nome" type="text"><br>
+                        <label>Email:</label>
+                        <input class="campo_email" type="password"><br>
+                        <input class="btn_submit" type="submit" value="Enviar">
+                    
+                    </fieldset>
+                </form>
+            </div>
 
         </div>
 
         <div id="esquerda" class="divs">
-
             <p>
                 Teste esquerda
             </p>
-
         </div>
 
     </div>
